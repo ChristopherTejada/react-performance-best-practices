@@ -1,28 +1,42 @@
 # React Performance Best Practices
 
-Curated and structured collection of high-impact React and Next.js
-performance best practices, based on guidelines from Vercel Engineering.
+A curated and structured collection of high-impact React and Next.js
+performance best practices, based on real-world production guidelines
+inspired by Vercel Engineering.
 
-## Objective
-Study, classify and apply real-world performance rules used in
-production-grade React applications.
+This repository focuses on identifying, understanding, and applying
+performance patterns commonly used in production-grade frontend
+applications.
 
-## Structure
-- **Critical**: Rules with direct impact on performance, UX and TTFB
-- **High**: High-impact optimizations depending on application scale
-- **Medium**: Advanced patterns and micro-optimizations
+## Purpose
 
-## Topics Covered
-- Re-render optimization
-- Server-side caching and data fetching
+The goal of this project is to study and organize performance rules
+that have a measurable impact on:
+- Rendering performance
+- Server-side efficiency
 - Bundle size and loading strategies
-- Rendering performance and hydration
-- JavaScript performance patterns
+- User experience and responsiveness
 
-## Approach
-Each rule is analyzed, prioritized by impact, and can be accompanied
-by practical before/after examples and explanations.
+Rather than covering theoretical optimizations, this repository focuses
+on practical, real-world issues frequently found in React and Next.js
+codebases.
+
+## Who this is for
+
+- Frontend developers working with React or Next.js
+- Developers looking to improve application performance
+- Engineers reviewing or auditing frontend code
+- Developers preparing for performance-focused technical interviews
+
+## How to use this repository
+
+- Use the **rules** section as a checklist when reviewing code
+- Apply the guidelines when building new features
+- Refer to the **examples** to understand common performance pitfalls
+- Use the project as a learning and interview preparation resource
 
 ## Credits
-Original guidelines inspired by React and Next.js performance research
-from Vercel Engineering.
+
+Performance guidelines and patterns inspired by engineering research
+and best practices from the React and Next.js ecosystem, including
+Vercel Engineering.
